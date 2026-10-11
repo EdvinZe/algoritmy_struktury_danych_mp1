@@ -1,0 +1,160 @@
+{
+  "executedAt": "2026-10-10T13:34:46.854Z",
+  "documents": [
+    {
+      "file": "dokumentacja/dokumentacja.pdf",
+      "pages": 10,
+      "layout": [
+        {
+          "page": 1,
+          "fits": true,
+          "contentBottom": 802,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 2,
+          "fits": true,
+          "contentBottom": 944,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 3,
+          "fits": true,
+          "contentBottom": 812,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 4,
+          "fits": true,
+          "contentBottom": 914,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 5,
+          "fits": true,
+          "contentBottom": 951,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 6,
+          "fits": true,
+          "contentBottom": 1019,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 7,
+          "fits": true,
+          "contentBottom": 985,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 8,
+          "fits": true,
+          "contentBottom": 983,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 9,
+          "fits": true,
+          "contentBottom": 990,
+          "footerTop": 1061,
+          "scrollFits": true
+        },
+        {
+          "page": 10,
+          "fits": true,
+          "contentBottom": 1031,
+          "footerTop": 1061,
+          "scrollFits": true
+        }
+      ],
+      "bytes": 231962
+    },
+    {
+      "file": "prezentacja/prezentacja.pdf",
+      "pages": 10,
+      "layout": [
+        {
+          "page": 1,
+          "fits": true,
+          "contentBottom": 636,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 2,
+          "fits": true,
+          "contentBottom": 656,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 3,
+          "fits": true,
+          "contentBottom": 694,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 4,
+          "fits": true,
+          "contentBottom": 774,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 5,
+          "fits": true,
+          "contentBottom": 730,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 6,
+          "fits": true,
+          "contentBottom": 720,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 7,
+          "fits": true,
+          "contentBottom": 812,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 8,
+          "fits": true,
+          "contentBottom": 815,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 9,
+          "fits": true,
+          "contentBottom": 704,
+          "footerTop": 848,
+          "scrollFits": true
+        },
+        {
+          "page": 10,
+          "fits": true,
+          "contentBottom": 666,
+          "footerTop": 848,
+          "scrollFits": true
+        }
+      ],
+      "bytes": 126633
+    }
+  ],
+  "presentationNavigation": "PASS"
+}

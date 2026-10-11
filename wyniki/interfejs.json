@@ -1,0 +1,77 @@
+{
+  "executedAt": "2026-10-10T13:25:14.777Z",
+  "browser": "156.0.8078.4",
+  "offline": true,
+  "total": 17,
+  "passed": 17,
+  "results": [
+    {
+      "name": "Otwarcie file:// bez sieci, stan początkowy",
+      "status": "PASS"
+    },
+    {
+      "name": "Krok: wejście i wyróżniony pseudokod",
+      "status": "PASS"
+    },
+    {
+      "name": "Po powrocie: ramka usunięta, wynik w drzewie",
+      "status": "PASS"
+    },
+    {
+      "name": "Suma kontrolna i pusty stos po końcu",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset czyści stos, drzewo i liczniki",
+      "status": "PASS"
+    },
+    {
+      "name": "Własne dane rozpoczynają nowy przebieg",
+      "status": "PASS"
+    },
+    {
+      "name": "Niepoprawne dane blokują odtwarzanie i usuwają stary stan",
+      "status": "PASS"
+    },
+    {
+      "name": "Trzy scenariusze sumy: kontrolny, pusty, mieszany",
+      "status": "PASS"
+    },
+    {
+      "name": "Start, zmiana tempa i Pauza",
+      "status": "PASS"
+    },
+    {
+      "name": "Pytanie przed wejściem zatrzymuje krok; odpowiedź i kontynuacja",
+      "status": "PASS"
+    },
+    {
+      "name": "Pytanie przed powrotem dotyczy rodzica; zła odpowiedź nie odblokowuje",
+      "status": "PASS"
+    },
+    {
+      "name": "Potęga: oba warianty, zmiana danych, 0⁰",
+      "status": "PASS"
+    },
+    {
+      "name": "Hanoi: stan po ruchu i finał, scenariusze 0 i 4",
+      "status": "PASS"
+    },
+    {
+      "name": "Porównanie zawiera cztery wiersze rzeczywistych wyników",
+      "status": "PASS"
+    },
+    {
+      "name": "44 testy działają także w przeglądarce",
+      "status": "PASS"
+    },
+    {
+      "name": "Układ mobilny nie powoduje przewijania całej strony w poziomie",
+      "status": "PASS"
+    },
+    {
+      "name": "Brak błędów JavaScript przy całej sesji",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "n": 1,
+    "result": 2,
+    "simpleMultiplications": 1,
+    "fastMultiplications": 0,
+    "simpleMaxStack": 2,
+    "fastMaxStack": 1
+  },
+  {
+    "n": 4,
+    "result": 16,
+    "simpleMultiplications": 4,
+    "fastMultiplications": 2,
+    "simpleMaxStack": 5,
+    "fastMaxStack": 3
+  },
+  {
+    "n": 8,
+    "result": 256,
+    "simpleMultiplications": 8,
+    "fastMultiplications": 3,
+    "simpleMaxStack": 9,
+    "fastMaxStack": 4
+  },
+  {
+    "n": 10,
+    "result": 1024,
+    "simpleMultiplications": 10,
+    "fastMultiplications": 4,
+    "simpleMaxStack": 11,
+    "fastMaxStack": 4
+  }
+]

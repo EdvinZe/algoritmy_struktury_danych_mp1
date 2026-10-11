@@ -1,0 +1,46 @@
+PASS | Suma: wynik | wejście: {"values":[]} | oczekiwane: 0 | uzyskane: 0
+PASS | Suma: wynik | wejście: {"values":[-7]} | oczekiwane: -7 | uzyskane: -7
+PASS | Suma: wynik | wejście: {"values":[2,4,1,3]} | oczekiwane: 10 | uzyskane: 10
+PASS | Suma: wynik | wejście: {"values":[-20,20,-3,0]} | oczekiwane: -3 | uzyskane: -3
+PASS | Suma: wynik | wejście: {"values":[20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20]} | oczekiwane: 320 | uzyskane: 320
+PASS | Potęga simple: wynik | wejście: {"base":0,"exponent":0} | oczekiwane: 1 | uzyskane: 1
+PASS | Potęga simple: wynik | wejście: {"base":5,"exponent":0} | oczekiwane: 1 | uzyskane: 1
+PASS | Potęga simple: wynik | wejście: {"base":-7,"exponent":1} | oczekiwane: -7 | uzyskane: -7
+PASS | Potęga simple: wynik | wejście: {"base":2,"exponent":5} | oczekiwane: 32 | uzyskane: 32
+PASS | Potęga simple: wynik | wejście: {"base":-2,"exponent":5} | oczekiwane: -32 | uzyskane: -32
+PASS | Potęga simple: wynik | wejście: {"base":-2,"exponent":4} | oczekiwane: 16 | uzyskane: 16
+PASS | Potęga simple: wynik | wejście: {"base":0,"exponent":10} | oczekiwane: 0 | uzyskane: 0
+PASS | Potęga simple: wynik | wejście: {"base":10,"exponent":10} | oczekiwane: 10000000000 | uzyskane: 10000000000
+PASS | Potęga fast: wynik | wejście: {"base":0,"exponent":0} | oczekiwane: 1 | uzyskane: 1
+PASS | Potęga fast: wynik | wejście: {"base":5,"exponent":0} | oczekiwane: 1 | uzyskane: 1
+PASS | Potęga fast: wynik | wejście: {"base":-7,"exponent":1} | oczekiwane: -7 | uzyskane: -7
+PASS | Potęga fast: wynik | wejście: {"base":2,"exponent":5} | oczekiwane: 32 | uzyskane: 32
+PASS | Potęga fast: wynik | wejście: {"base":-2,"exponent":5} | oczekiwane: -32 | uzyskane: -32
+PASS | Potęga fast: wynik | wejście: {"base":-2,"exponent":4} | oczekiwane: 16 | uzyskane: 16
+PASS | Potęga fast: wynik | wejście: {"base":0,"exponent":10} | oczekiwane: 0 | uzyskane: 0
+PASS | Potęga fast: wynik | wejście: {"base":10,"exponent":10} | oczekiwane: 10000000000 | uzyskane: 10000000000
+PASS | Hanoi: wynik, cel, stos, legalność po każdym ruchu | wejście: {"disks":0} | oczekiwane: {"moves":0,"A":[],"B":[],"C":[],"stack":0,"legal":true} | uzyskane: {"moves":0,"A":[],"B":[],"C":[],"stack":0,"legal":true}
+PASS | Hanoi: wynik, cel, stos, legalność po każdym ruchu | wejście: {"disks":1} | oczekiwane: {"moves":1,"A":[],"B":[],"C":[1],"stack":0,"legal":true} | uzyskane: {"moves":1,"A":[],"B":[],"C":[1],"stack":0,"legal":true}
+PASS | Hanoi: wynik, cel, stos, legalność po każdym ruchu | wejście: {"disks":3} | oczekiwane: {"moves":7,"A":[],"B":[],"C":[3,2,1],"stack":0,"legal":true} | uzyskane: {"moves":7,"A":[],"B":[],"C":[3,2,1],"stack":0,"legal":true}
+PASS | Hanoi: wynik, cel, stos, legalność po każdym ruchu | wejście: {"disks":8} | oczekiwane: {"moves":255,"A":[],"B":[],"C":[8,7,6,5,4,3,2,1],"stack":0,"legal":true} | uzyskane: {"moves":255,"A":[],"B":[],"C":[8,7,6,5,4,3,2,1],"stack":0,"legal":true}
+PASS | Suma: stan po pierwszym powrocie liścia | wejście: [2,4,1,3] | oczekiwane: {"stack":[1,2],"finishedId":3,"value":2,"status":"finished","parentStatus":"active"} | uzyskane: {"stack":[1,2],"finishedId":3,"value":2,"status":"finished","parentStatus":"active"}
+PASS | Hanoi: stan po pierwszym ruchu n = 3 | wejście: {"disks":3} | oczekiwane: {"A":[3,2],"B":[],"C":[1],"stack":[1,2,3],"caller":3,"move":{"disk":1,"from":"A","to":"C"}} | uzyskane: {"A":[3,2],"B":[],"C":[1],"stack":[1,2,3],"caller":3,"move":{"disk":1,"from":"A","to":"C"}}
+PASS | Pytanie zależne od stanu: powrót z liścia | wejście: [2,4] | oczekiwane: #1 suma | uzyskane: #1 suma
+PASS | Porównanie: wynik, mnożenia i maksymalny stos | wejście: {"base":2,"exponents":[1,4,8,10]} | oczekiwane: [[2,1,0,2,1],[16,4,2,5,3],[256,8,3,9,4],[1024,10,4,11,4]] | uzyskane: [[2,1,0,2,1],[16,4,2,5,3],[256,8,3,9,4],[1024,10,4,11,4]]
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"sum","values":[21]} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"sum","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"sum","values":[1.5]} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"power","base":11,"exponent":2} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"power","base":2,"exponent":-1} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"power","base":2,"exponent":11} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"hanoi","disks":-1} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"hanoi","disks":9} | oczekiwane: true | uzyskane: true
+PASS | Walidacja: odrzucenie wejścia | wejście: {"kind":"hanoi","disks":1.5} | oczekiwane: true | uzyskane: true
+PASS | Walidator: większy na mniejszym | wejście: {"A":[1,2],"B":[],"C":[]} | oczekiwane: true | uzyskane: true
+PASS | Walidator: zduplikowany krążek | wejście: {"A":[2,1],"B":[1],"C":[]} | oczekiwane: true | uzyskane: true
+PASS | Walidator: brak krążka | wejście: {"A":[2],"B":[],"C":[]} | oczekiwane: true | uzyskane: true
+PASS | Walidator: niedozwolony ruch nie zmienia słupków | wejście: {"A":[2],"B":[1],"C":[]} | oczekiwane: {"rejected":true,"A":[2],"B":[1],"C":[]} | uzyskane: {"rejected":true,"A":[2],"B":[1],"C":[]}
+PASS | Wszystkie metody: pusty stos, zakończone drzewo, zgodne liczniki | wejście: ["sum","simple","fast","hanoi"] | oczekiwane: true | uzyskane: true
+PASS | Cała dziedzina potęgowania: obie metody zgodne z operatorem ** | wejście: 21 podstaw × 11 wykładników × 2 warianty = 462 przebiegi | oczekiwane: true | uzyskane: true
+
+Wynik: 44/44 PASS
