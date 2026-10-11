@@ -13,7 +13,7 @@
 
 ## Pozostałe czynności studenta / publikacja
 
-- [ ] Repozytorium GitHub: **jeszcze nie opublikowano**. Konto połączone z agentem: EdvinZe. Publikacja wymaga osobnej zgody zgodnie z instrukcjami użytkownika dotyczącymi Git.
+- [x] Repozytorium GitHub: https://github.com/EdvinZe/algoritmy_struktury_danych_mp1 — prywatne, kod i materiały opublikowane za zgodą autora. Zapewnij prowadzącemu dostęp.
 - [ ] Dopisać rzeczywiście wykonane własne poprawki i samodzielnie przećwiczyć obronę.
 - [ ] Dodać ZIP aplikacji, PDF raportu i prezentację do Dziennika.
 - [ ] Dodać osobny link repozytorium do pola „Linki”. Przy repozytorium prywatnym zapewnić prowadzącemu dostęp.

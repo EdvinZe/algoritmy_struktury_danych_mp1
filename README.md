@@ -104,6 +104,6 @@ Użyto **OpenAI Codex przez OpenClaw** do kodu, testów i materiałów. Agent fa
 
 ## GitHub i termin
 
-Karta wymaga repozytorium GitHub i **osobnego linku w polu „Linki” w Dzienniku**. Lokalny folder/ZIP nie spełnia tego punktu. Stan publikacji i instrukcję podaje `LISTA_ODDANIA.md`; nie deklarujemy repozytorium, zanim rzeczywiście powstanie.
+Karta wymaga repozytorium GitHub i **osobnego linku w polu „Linki” w Dzienniku**. Lokalny folder/ZIP nie spełnia tego punktu. Repozytorium: https://github.com/EdvinZe/algoritmy_struktury_danych_mp1 — prywatne, opublikowane za zgodą autora. Zapewnij prowadzącemu dostęp.
 
 Termin oddania: **26.10.2026, 23:59**. Obrona: **28.10.2026, 08:30–11:40** — zgodnie z przekazaną kartą.
